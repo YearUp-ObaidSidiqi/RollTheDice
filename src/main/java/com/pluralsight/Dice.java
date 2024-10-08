@@ -8,8 +8,7 @@ public  class Dice {
        int maxValue =7;
        int minValue=1;
 
-        int randomNumber = (int)(Math.random() * maxValue) + minValue;
-        return randomNumber;
+       return (int)(Math.random() * maxValue) + minValue;
     }
 
 }
